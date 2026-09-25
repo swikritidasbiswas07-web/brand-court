@@ -6014,3 +6014,9 @@ button {
     display: none !important;
   }
 }
+/* FIX: ensure all page headings remain visible */
+.page-title,
+.page-title * {
+  color: var(--text) !important;
+  opacity: 1 !important;
+}
