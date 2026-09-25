@@ -1043,8 +1043,9 @@ statusPulse {
 
 
 .page-title {
-  color: var(--text);
-  opacity: 1;
+  color: #eef3ff !important;
+  opacity: 1 !important;
+
   max-width:
     1000px;
 
@@ -1071,6 +1072,17 @@ statusPulse {
 
   letter-spacing:
     -2px;
+}
+
+.page-title > span {
+  color: #eef3ff !important;
+  -webkit-text-fill-color: #eef3ff !important;
+  opacity: 1 !important;
+}
+
+.page-title .terminal-cursor {
+  color: #c5b6ff !important;
+  -webkit-text-fill-color: #c5b6ff !important;
 }
 
 
@@ -5934,7 +5946,37 @@ button {
 
 
 /* ---------- PRINT / SAVE PDF ---------- */
+/* ---------- READABILITY BOOST ---------- */
 
+.page-description {
+  font-size: 15px;
+}
+
+.question-copy p,
+.summary-grid p,
+.sector-description,
+.signal-card > p,
+.signal-reason p,
+.core-module p,
+.trait-module p,
+.anti-module p,
+.principle-row p,
+.lock-message p,
+.direction-thesis,
+.direction-data p,
+.direction-analysis p,
+.trial-copy p,
+.loading-description {
+  font-size: 12px;
+}
+
+.input-console textarea {
+  font-size: 13px;
+}
+
+.interview-row textarea {
+  font-size: 12px;
+}
 @media print {
   body,
   #root,
