@@ -1043,6 +1043,8 @@ statusPulse {
 
 
 .page-title {
+  color: var(--text);
+  opacity: 1;
   max-width:
     1000px;
 
