@@ -667,7 +667,7 @@ function App() {
       try {
         const response =
           await fetch(
-            "http://localhost:5000/api/analyze-evidence",
+            "https://brand-court-backend.onrender.com/api/analyze-evidence",
             {
               method: "POST",
 
@@ -791,7 +791,7 @@ function App() {
       try {
         const response =
           await fetch(
-            "http://localhost:5000/api/generate-brand-dna",
+            "https://brand-court-backend.onrender.com/api/generate-brand-dna",
             {
               method: "POST",
 
@@ -918,7 +918,7 @@ function App() {
       try {
         const response =
           await fetch(
-            "http://localhost:5000/api/generate-directions",
+            "https://brand-court-backend.onrender.com/api/generate-directions",
             {
               method: "POST",
 
@@ -1077,7 +1077,7 @@ function App() {
       try {
         const response =
           await fetch(
-            "http://localhost:5000/api/run-trial",
+            "https://brand-court-backend.onrender.com/api/run-trial",
             {
               method: "POST",
 
@@ -1281,7 +1281,7 @@ function App() {
       try {
         const response =
           await fetch(
-            "http://localhost:5000/api/generate-final-system",
+            "https://brand-court-backend.onrender.com/api/generate-final-system",
             {
               method: "POST",
 
