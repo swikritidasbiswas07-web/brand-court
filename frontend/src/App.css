@@ -1316,6 +1316,9 @@ statusPulse {
 
 
 .terminal-title {
+  color: #eef3ff !important;
+  opacity: 1 !important;
+
   margin:
     20px 0
     16px;
@@ -1336,6 +1339,17 @@ statusPulse {
 
   letter-spacing:
     -1.7px;
+}
+
+.terminal-title > span {
+  color: #eef3ff !important;
+  -webkit-text-fill-color: #eef3ff !important;
+  opacity: 1 !important;
+}
+
+.terminal-title .terminal-cursor {
+  color: #c5b6ff !important;
+  -webkit-text-fill-color: #c5b6ff !important;
 }
 
 
